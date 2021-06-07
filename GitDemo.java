@@ -1,5 +1,7 @@
 /*****
+
  Jayson Albizures
+
  ******/
 public class GitDemo {
     
@@ -18,6 +20,7 @@ public class GitDemo {
     *****/
     public double addNumber(double num) {
         System.out.print("Add num to previousNumber");
+
         previousNumber = previousNumber + num; 
         return previousNumber;
     }
@@ -30,6 +33,7 @@ public class GitDemo {
      *****/
     public void templateFunction(int num) {
         
+
        pubic doube templateFunction(int num) {
            double newNumber = 1;
            
