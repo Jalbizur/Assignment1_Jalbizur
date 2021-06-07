@@ -1,3 +1,4 @@
+
 /*****
 
  Jayson Albizures
@@ -34,7 +35,7 @@ public class GitDemo {
     public void templateFunction(int num) {
         
 
-       pubic doube templateFunction(int num) {
+       pubic doube Function1(int num) {
            double newNumber = 1;
            
            for(int i = 1: i <= num ++i) {
@@ -44,4 +45,17 @@ public class GitDemo {
         return newNumber;
        }
     }
+    
+    public void Function2(int num) {
+        double factorialNumber = 0;
+        
+        while( num != 0 ) {
+            double temp = num  % 10;
+            factorialNumber =  factorialNumber * 10 + temp;
+            num /= 10;
+        }
+        
+        return factorialNumber;
+    }
 }
+
