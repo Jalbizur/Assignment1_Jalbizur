@@ -35,7 +35,7 @@ public class GitDemo {
     public void templateFunction(int num) {
         
 
-       pubic doube Function1(int num) {
+       public double Function1(int num) {
            double newNumber = 1;
            
            for(int i = 1: i <= num ++i) {
