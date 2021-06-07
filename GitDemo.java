@@ -1,5 +1,8 @@
+
 /*****
- * Edit this line to have your name.
+
+ Jayson Albizures
+
  ******/
 public class GitDemo {
     
@@ -18,7 +21,9 @@ public class GitDemo {
     *****/
     public double addNumber(double num) {
         System.out.print("Add num to previousNumber");
-        return 0;
+
+        previousNumber = previousNumber + num; 
+        return previousNumber;
     }
     
     /*****
@@ -28,6 +33,20 @@ public class GitDemo {
      * @return - description of return value goes here
      *****/
     public void templateFunction(int num) {
+        
+
+       pubic doube Function1(int num) {
+           double newNumber = 1;
+           
+           for(int i = 1: i <= num ++i) {
+               newNumber = newNumber * i;
+           }
+        
+        return newNumber;
+       }
+    }
+    
+    public void Function2(int num) {
         double factorialNumber = 0;
         
         while( num != 0 ) {
@@ -39,3 +58,4 @@ public class GitDemo {
         return factorialNumber;
     }
 }
+
