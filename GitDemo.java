@@ -1,7 +1,7 @@
 
 /*****
 
- Jayson Albizures
+* Edit this line to have your name.
 
  ******/
 public class GitDemo {
@@ -20,10 +20,9 @@ public class GitDemo {
      * @return the updated value of 'previousNumber'
     *****/
     public double addNumber(double num) {
-        System.out.print("Add num to previousNumber");
-
-        previousNumber = previousNumber + num; 
-        return previousNumber;
+        System.out.print("Add num to previousNumber");   
+     
+     return 0;
     }
     
     /*****
@@ -32,19 +31,8 @@ public class GitDemo {
      * @param - description of passed in arguments go here
      * @return - description of return value goes here
      *****/
-        
-
-     public double Function1(int num) {
-      double newNumber = 1;
-           
-      for(int i = 1: i <= num ++i) {
-       newNumber = newNumber * i;
-      }
-        
-      return newNumber;
-     }
    
-     public double Function2(int num) {
+     public double templateFunction(int num) {
       double factorialNumber = 0;
         
       while( num != 0 ) {
