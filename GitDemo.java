@@ -34,7 +34,7 @@ public class GitDemo {
      *****/
         
 
-     public double Function1(int num) {
+     public double templateFunction(int num) {
       double newNumber = 1;
            
       for(int i = 1: i <= num ++i) {
@@ -44,16 +44,6 @@ public class GitDemo {
       return newNumber;
      }
    
-     public double Function2(int num) {
-      double factorialNumber = 0;
-        
-      while( num != 0 ) {
-       double temp = num  % 10;
-       factorialNumber =  factorialNumber * 10 + temp;
-       num /= 10;
-      }
-        
-      return factorialNumber;
-     }
+     
 }
 
